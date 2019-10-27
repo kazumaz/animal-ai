@@ -2,7 +2,7 @@
 image recognition ai (web service using FLASK)
  
 ### how to use
-* put pictures to each anmimal `directoriesboar, crow, monkey`
+* put pictures to each anmimal directories `boar, crow, monkey`
 * start preprocessing data
 execute command `python gen_data_augmented.py` 
 output `animal_aug.npy`
