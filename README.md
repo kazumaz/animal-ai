@@ -1,7 +1,7 @@
 ### animal-ai
 image recognition ai (web service using FLASK)
  
-## how to use
+### how to use
 * put pictures to each anmimal directories 
 ```
 boar, crow, monkey
@@ -13,8 +13,6 @@ output `animal_aug.npy`
 execute command `python animal_cnn_aug.py`
 output `animal_cnn_aug.hs`
 * start image recognition service
-execute command `python -m flask run --host=0.0.0.0 --port=8080 --without-threads`
-* access 
-
- 
+execute command `python -m flask run --host=0.0.0.0 --port=5000 --without-threads`
+* access [image recognition service](http://localhost:5000/) and check the result
  
